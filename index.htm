@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Silver the Developer</title>
+</head>
+<body>
+	<section class="banner" id="sec">
+		<header>
+			<a href="#" class="logo">Logo</a>
+			<div id="toggle" onclick="toggle()"></div>
+		</header>
+		<div class="content">
+			<h2>Hey there,<br>I'm <span>Lordson Silver</span></h2><p> I'm a web and app developer. Contact me for your <br><strong>BEAUTIFUL</strong> & <strong>RESPONSIVE</strong> websites.<br>
+			Very affordable.</p>
+			<a href="https://tinyurl.com/yy8exshc">Explore</a>
+		</div>
+		<ul class="sci">
+			<li><a href="https://www.facebook.com/lordson.silver"><img src="images/fb.png"></a></li>
+			<li><a href="#"><img src="images/tw.png"></a></li>
+			<li><a href="https://www.instagram.com/p/CCgTPcSHwFo"><img src="images/ig.png"></a></li>
+		</ul>
+	</section>
+	<div id="navigation">
+		<ul>
+			<li><a href="https://tinyurl.com/LordSilver">Home</a></li>
+			<li><a href="https://tinyurl.com/yy8exshc">Web Design</a></li>
+			<li><a href="https://tinyurl.com/yy8exshc">Mobile App</a></li>
+			<li><a href="https://tinyurl.com/yy8exshc">Marketing</a></li>
+			<li><a href="https://tinyurl.com/yy8exshc">Wordpress</a></li>
+		</ul>
+	</div>
+	<script type="text/javascript">
+		function toggle(){
+			var sec = document.getElementById('sec');
+			var nav = document.getElementById('navigation');
+			sec.classList.toggle('active');
+			nav.classList.toggle('active');
+		}
+	</script>
+</body>
+</html>
